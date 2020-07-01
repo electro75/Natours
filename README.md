@@ -13,4 +13,8 @@ The project can be run cloning this repo and opening the index.html file
 clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 ```
 
-- Animation and @keyframes
+### Animation : 
+- Everything related to the animation property. (effect, delay, duration, timming function etc)
+```
+animation: moveInRight 1s ease-out;
+```
