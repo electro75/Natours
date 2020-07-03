@@ -18,3 +18,6 @@ clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 ```
 animation: moveInRight 1s ease-out;
 ```
+
+### REM : 
+- Using lenghts and font-sizes in rem helps in writing highly responsive web pages as all sizes will be relative to root.
