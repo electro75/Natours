@@ -21,3 +21,6 @@ animation: moveInRight 1s ease-out;
 
 ### REM : 
 - Using lenghts and font-sizes in rem helps in writing highly responsive web pages as all sizes will be relative to root.
+
+### BEM Principle : 
+- BEM stands for Block Element Modifier. This is one of the techniques that is used to name CSS classes.
