@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html {
+    /* relative to the font size set by user/browser (defaults to 16 px)/ */
+    font-size : 50%;  // acts more like a global setting and defines what 1rem is.     
+}
+
+body {    
+    box-sizing: border-box;
+}
