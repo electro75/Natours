@@ -1,6 +1,5 @@
 .row {
-    max-width : $grid-width;
-    background-color: #eee;
+    max-width : $grid-width;    
     margin: 0 auto;
     
 
@@ -14,8 +13,7 @@
 
         // ^ : starts with
         // * : contains
-        // $ : ends with
-        background-color : orangered;
+        // $ : ends with        
         float : left;
         &:not(:last-child) {
             margin-right : $gutter-horizontal;

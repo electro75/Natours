@@ -3,6 +3,7 @@
 @import "abstracts/functions";
 @import "abstracts/mixins";
 
+@import "base/utilities";
 @import "base/base";
 @import "base/animations";
 @import "base/typography";
@@ -12,3 +13,5 @@
 @import "layout/grid";
 @import "layout/header";
 @import "base/typography";
+
+@import "pages/home";
