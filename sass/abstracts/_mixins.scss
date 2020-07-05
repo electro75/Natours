@@ -1,0 +1,7 @@
+@mixin clearfix {
+    &::after {
+        content : ""; // all ::after needs a content property to appear on the page.
+        display : table;
+        clear: both;  //clears both floats, giving the element a height
+    }
+}
