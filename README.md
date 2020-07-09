@@ -41,3 +41,14 @@ folders :
 ### Float Layout : 
 - Float layout is used to build the webpage as it is supported accross all modern browsers.
 
+### Shape Outside : 
+- This property is used to define how the elements align themselves outside of the specified element.
+
+### HTML Video Element : 
+```
+<video class="bg-video__content" autoplay muted loop>
+    <source src="img/video.mp4" type="video/mp4" >
+    <source src="img/video.webm" type="video/webm" >
+        Your Browser is not supported :(
+</video>
+```
