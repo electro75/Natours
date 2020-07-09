@@ -52,3 +52,12 @@ folders :
         Your Browser is not supported :(
 </video>
 ```
+
+### Sibbling Selectors : 
+- __~__ selects a general sibbling.
+- __+__ selects an adjacent sibbling
+
+## Cubic Bezier Functions :
+- This is used to define the exact timming of the transition animation. Helpful tools : 
+    - https://easings.net/
+    - https://cubic-bezier.com/

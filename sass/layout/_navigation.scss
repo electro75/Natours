@@ -12,7 +12,8 @@
         top: 6rem;
         right: 6rem;
         z-index: 100;
-        border-radius: 50%;;
+        border-radius: 50%;
+        box-shadow: 0 1rem 3rem rgba($color-black, .1);
     }
 
     &__background {
@@ -24,17 +25,19 @@
         right: 6.5rem;
         background-image: radial-gradient($color-primary-light, $color-primary-dark);
         z-index: 98;
-
-        transform: scale(80);
+        transition: transform .8s cubic-bezier(0.85, 0, 0.15, 1);        
     }
 
     &__nav {
-        height: 100vh;
-        width: 100vw;
+        height: 100vh;        
         position: fixed;
+        width: 100vw;
         top: 0;
         right: 0;
-        z-index: 99
+        z-index: 99;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .8s cubic-bezier(0.85, 0, 0.15, 1); 
     }
 
     &__list {
@@ -73,5 +76,14 @@
             transform: translateX(1rem);
         }
         
+    }
+
+    &__checkbox:checked ~ &__background {
+        transform: scale(80);
+    }
+
+    &__checkbox:checked ~ &__nav {        
+        visibility: visible;
+        opacity: 1;
     }
 }
