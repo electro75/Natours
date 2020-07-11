@@ -57,7 +57,10 @@ folders :
 - __~__ selects a general sibbling.
 - __+__ selects an adjacent sibbling
 
-## Cubic Bezier Functions :
+### Cubic Bezier Functions :
 - This is used to define the exact timming of the transition animation. Helpful tools : 
     - https://easings.net/
     - https://cubic-bezier.com/
+
+### Pure CSS Popups :
+- These can be built by using the `:target` psuedo class that is applied to an element which is targettef by an anchor tag.
