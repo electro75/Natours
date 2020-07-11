@@ -64,3 +64,6 @@ folders :
 
 ### Pure CSS Popups :
 - These can be built by using the `:target` psuedo class that is applied to an element which is targettef by an anchor tag.
+
+### Responsive Strategy : 
+- Desktop first strategy is used where in a *Media Query Manager* is implemented using `@mixins`
