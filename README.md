@@ -67,3 +67,6 @@ folders :
 
 ### Responsive Strategy : 
 - Desktop first strategy is used where in a *Media Query Manager* is implemented using `@mixins`
+
+### Tool to test responsiveness on devices : 
+- [Sizzy](https://sizzy.co)

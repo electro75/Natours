@@ -75,9 +75,25 @@
                     </div>
                     <div class="col-1-of-2">
                         <div class="composition">
-                            <img src="img/nat-1-large.jpg" alt="" class="composition__photo composition__photo--p1">
-                            <img src="img/nat-2-large.jpg" alt="" class="composition__photo composition__photo--p2">
-                            <img src="img/nat-3-large.jpg" alt="" class="composition__photo composition__photo--p3">
+
+                            <img srcset="img/nat-1.jpg  300w, img/nat-1-large.jpg 1000w" alt="nature pic 1"
+                                    sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                    src="img/nat-1-large.jpg"
+                                    class="composition__photo composition__photo--p1">
+
+                            <img srcset="img/nat-2.jpg  300w, img/nat-2-large.jpg 1000w" alt="nature pic 1"
+                                    sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                    src="img/nat-2-large.jpg"
+                                    class="composition__photo composition__photo--p2">
+
+                            <img srcset="img/nat-3.jpg  300w, img/nat-3-large.jpg 1000w" alt="nature pic 1"
+                                    sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                    src="img/nat-3-large.jpg"
+                                    class="composition__photo composition__photo--p3">
+                                    
+                            <!-- <img src="img/nat-1-large.jpg" alt="" class="composition__photo composition__photo--p1"> -->
+                            <!-- <img src="img/nat-2-large.jpg" alt="" class="composition__photo composition__photo--p2"> -->
+                            <!-- <img src="img/nat-3-large.jpg" alt="" class="composition__photo composition__photo--p3"> -->
                         </div>
                     </div>
                 </div>
@@ -345,7 +361,16 @@
 
         <footer class="footer">
             <div class="footer__logo-box">
-                <img src="img/logo-green-2x.png" alt="green logo" class="footer__logo" >
+
+                <picture class="footer__logo" >
+                    <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" 
+                            media="(max-width: 37.5em)">
+                    <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" 
+                            alt="green logo"
+                            src="img/logo-green-2x.png" >
+                </picture>
+
+                
             </div>
             <div class="row">
                 <div class="col-1-of-2">
@@ -361,11 +386,11 @@
                 </div>
                 <div class="col-1-of-2">
                     <p class="footer__copyright">
-                        Built by <a href="#" class="footer__link" >Sahil Naikdhure</a> with ❤️  
+                        Built by <a href="https://github.com/electro75" class="footer__link" >Sahil Naikdhure</a> with ❤️  
                         <br>
-                        while learning <a href="#" class="footer__link">Advanced CSS course</a>
+                        while learning <a href="https://www.udemy.com/share/101WkwAkUZd1ZUTXg=/" class="footer__link">Advanced CSS course</a>
                         <br>
-                        Original Author : <a href="#" class="footer__link">Jonas Schmedtmann</a> 
+                        Original Author : <a href="https://github.com/jonasschmedtmann" class="footer__link">Jonas Schmedtmann</a> 
                     </p>
                     
                     
