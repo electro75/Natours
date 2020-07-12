@@ -1,6 +1,8 @@
 # Natours
 
-This is a mock web page built while learning advanced CSS concepts from [this course](https://www.udemy.com/share/101WkwAkUZd1ZUTXg=/)
+This is a mock web page built while learning advanced CSS concepts from [this wonderful course](https://www.udemy.com/share/101WkwAkUZd1ZUTXg=/)
+
+Here is the [Page!](https://romantic-haibt-f5cf2f.netlify.app)
 
 The project can be run cloning this repo and opening the index.html file
 
